@@ -1,0 +1,35 @@
+Some Basic Datatypes
+--------------------
+
+    * int
+    * float
+    * char
+    * string
+
+
+Int
+---
+
+    without decimal values like 75,2565,125,etc...
+
+
+float
+-----
+
+    decimal values like 8.2,9.6,98.677,678.765,etc...
+
+
+char
+----
+
+    single letter like 'a','k','l',etc....
+    between 'a' to 'z' 
+    ' ' - this is a single quotation and it must to all char values.
+
+
+string
+------
+
+    group of characters or collections of characters like "hello", "hi", "Welcome"
+
+ "  " - this is a double quotation and it must to all string values. 

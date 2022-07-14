@@ -1,0 +1,18 @@
+What is Program?
+
+    Program means set of instructions and
+    it has written for A device to do A particular task.
+    That task can be
+
+        *Addition
+        *Sutraction
+        *Multiplication
+        *Division
+        *Sattelite Launch
+        *Bomb blast
+        *Air Cooler Adjustment
+        *Printer take printout
+        etc.....
+        
+
+    

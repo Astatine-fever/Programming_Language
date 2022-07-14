@@ -1,0 +1,25 @@
+Somes variables and values assigning
+------------------------------------
+
+    A = 100
+    B = 2.5
+    C = 'H'
+    D = "India"
+
+
+    A ---> Integer Variable
+    B ---> Float Variable
+    C ---> Character Variable
+    D ---> String Variable
+
+    What is Variable?
+
+        Value container.A variable can contain a value
+
+
+          ( ) ---> This is a circle bracket
+          and this bracket is mentioning the function concept 
+
+          print() ---> This function is connected with output screen.
+
+              
