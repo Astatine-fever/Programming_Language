@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Sample Calculator</h1>
+<p>Enter 2 Numbers </p>
+<label > A= </label>
+<input type="text" id="t1">
+<label > B= </label>
+<input type="text" id="t2">
+<label > C= </label>
+<input type="text" id="t3">
+
+<input type="button"  onclick=add()>  add </input>
+
+
+<script>
+
+    add()
+{           
+    var a = document.getElementById('t1').innerHTML;
+    var b = document.getElementById('t2').innerHTML;
+    document.getElementById('t3').innerHTML =  a + b;
+}
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <script> // js script tag 
+
+            function wasClicked()
+            {
+                alert("You clicked "+window.event.srcElement.tagName+"Tag ");
+            }
+            
+            function wasAlsoClicked()
+            {
+                alert("I was Also clicked");
+            }
+            
+            function wasAlsoAlsoClicked()
+            {
+                alert("I was Also clicked");
+            }
+
+
+        </script>
+    </head>
+
+    <body ondblclick="wasClicked()">
+
+        <h1 name="test"> Welcome </h1>
+
+    <p onclick="wasAlsoClicked()"> This is a very 
+    
+        <b> short </b> document </p>
+        
+    <p onmouseover="wasAlsoAlsoClicked()"> This is another very 
+    
+        <b> short </b> document </p>
+
+    </body>
+</html>

@@ -1,0 +1,36 @@
+body.test
+{
+    background-image: url("H:/IDE/2.jpg");
+    background-size: 100% auto; 
+    
+}
+
+h1.reshman
+{
+    font-family:monospace; font-size: 60px; color:rgb(23, 250, 2)
+}
+
+a:link 
+{
+color: rgb(36, 54, 211);
+background-color: transparent;
+text-decoration: none;
+}
+
+a:visited {
+color: rgb(190, 168, 68);
+background-color: transparent;
+text-decoration: none;
+}
+
+a:hover {
+color: rgb(255, 0, 0);
+background-color: transparent;
+text-decoration: underline;
+}
+
+a:active {
+color: rgb(0, 225, 255);
+background-color: transparent;
+text-decoration: underline;
+}
