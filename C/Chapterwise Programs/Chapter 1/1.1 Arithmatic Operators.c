@@ -4,16 +4,16 @@
 #include<conio.h>
 int main()  // Main Functions 
 {
-int a,b,c,d,e,f,g;
+int m,b,c,d,e,f,g;
 printf("Enter 2 Number \n");
-scanf("%d %d",&a,&b);
-c=a+b;
-d=a-b;
-e=a*b;
-f=b/a;
-printf("%d + %d = %d \n",a,b,c);
-printf("%d - %d = %d \n",a,b,d);
-printf("%d * %d = %d \n",a,b,e);
-printf("%d / %d = %d \n",b,a,f);
+scanf("%d %d",&m,&b);
+c=m+b;
+d=m-b;
+e=m*b;
+f=b/m;
+printf("%d + %d = %d \n",m,b,c);
+printf("%d - %d = %d \n",m,b,d);
+printf("%d * %d = %d \n",m,b,e);
+printf("%d / %d = %d \n",b,m,f);
 return 0;
 }
