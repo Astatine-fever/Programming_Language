@@ -11,9 +11,9 @@ while(i>=0):
 print(B)
 
 if(A==B):
-    print("Given String is  polyndrome")
+    print("Given String is  palindrome")
 else:
-    print("Given String is not polyndrome")
+    print("Given String is not palindrome")
     
 
 

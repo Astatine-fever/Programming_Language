@@ -1,5 +1,7 @@
 package Chapter15_JDBC;
+
 import java.sql.*; // this converts java arguments to string 
+
 class JDBC_Table_Creation 
 {
 	/**
@@ -25,7 +27,7 @@ class JDBC_Table_Creation
 		ps0=con.prepareStatement("use test1;");
 		ps0.executeUpdate();
 		System.out.println("Database selected");
-		ps0 = con.prepareStatement("Create Table siva(S_no int(6) Not Null,Name varchar(30));insert into siva values(3963,'prasanna')");
+		ps0 = con.prepareStatement("Create Table siva1(S_no int(6) Not Null,Name varchar(30));insert into siva values(3963,'prasanna')");
 		//ps0=con.prepareStatement("create table student(id int(8)")
 		ps0.executeUpdate();
 		System.out.println("Table Created");
