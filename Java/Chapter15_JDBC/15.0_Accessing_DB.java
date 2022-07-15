@@ -14,7 +14,7 @@ class JDBC_Table_Creation
 	try // This will try the statements 
 	{
 		//connection string
-		Connection con = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3310/?allowMultiQueries=true","root","System@123");
+		Connection con = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3309/?allowMultiQueries=true","root","");
 		
 		
 		System.out.println("Connected to Database");
@@ -24,10 +24,10 @@ class JDBC_Table_Creation
 		
 		
 		PreparedStatement ps0; 
-		ps0=con.prepareStatement("use test1;");
+		ps0=con.prepareStatement("use office;");
 		ps0.executeUpdate();
 		System.out.println("Database selected");
-		ps0 = con.prepareStatement("Create Table siva1(S_no int(6) Not Null,Name varchar(30));insert into siva values(3963,'prasanna')");
+		ps0 = con.prepareStatement("Create Table Sampletable(S_no int(6)Not Null,Name varchar(30));insert into Sampletable values(3963,'prasanna')");
 		//ps0=con.prepareStatement("create table student(id int(8)")
 		ps0.executeUpdate();
 		System.out.println("Table Created");
