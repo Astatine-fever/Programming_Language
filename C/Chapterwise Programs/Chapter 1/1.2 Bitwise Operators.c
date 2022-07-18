@@ -9,7 +9,7 @@ scanf("%d",&a);
 printf("Enter the value of B \n");
 scanf("%d",&b);
 c=b<<2; // Left Shift Operator
-d=a>>4; // Right shift Operator
+d=a>>2; // Right shift Operator
 e=a&b; // Bitwise And Operator 
 f=a|b; // Bitwise Or Operator
 g=a^b; // Exclusive  Or 

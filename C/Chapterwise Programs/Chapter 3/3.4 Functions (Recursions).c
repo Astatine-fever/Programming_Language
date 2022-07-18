@@ -1,18 +1,21 @@
 // Recursion in C 
 #include<stdio.h>
 #include<conio.h>
-int i;
+int i=0;// Global Variable
 void recurve();
 void main()
 {
+	//local variable
 recurve();	// Function Calling 
 }
 
 void recurve() // Function
 {
-for(i=0;i<10;i++)
+	i++;
+for(;i<=10;)
 {
-	void recurve();
-printf("Recursion Example \n");
+	printf("Recursion Example \n");
+	recurve();
+
 }
 }

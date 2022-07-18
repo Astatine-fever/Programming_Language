@@ -1,6 +1,6 @@
 #  for....loop using in string manipulation:
 
-y="I am an Indian but tamilan"
+y="I am an Indian but   tamilan"
 print(len(y))
 
 c=0

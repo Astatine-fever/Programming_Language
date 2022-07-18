@@ -1,6 +1,5 @@
 package Chapter11_EXCEPTION;
 
-
 // This program throws an exception 
 
 import java.io.*;
