@@ -12,9 +12,10 @@ printf("The Value Inside A is %d \n",a);
 printf("The Value Inside B is %d \n ",b);
 b=&a;
 c=&b;
-printf("The Address of A is	 %d \n",&a);
+printf("The Address of A is	 %u \n",&a);
 printf("The Value Inside B is %d \n ",b);
-printf("The Address of B is %d \n",&b);
-printf("The Value of C %d \n ",c);
+printf("The Address of B is %u \n",&b);
+printf("The Value of C %u \n ",c);
+printf("The Value of C %u \n ",*c);
 printf("The Value of C %d \n ",**c);
 }

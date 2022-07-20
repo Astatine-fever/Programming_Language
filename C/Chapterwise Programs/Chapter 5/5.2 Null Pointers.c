@@ -17,7 +17,7 @@ for(i=0;i<5;i++)
 }
  else
  {
- 	printf("Entered Value is null ");
+ 	printf("Entered Value is  null ");
  }
  getch();
  }

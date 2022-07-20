@@ -5,7 +5,7 @@ struct test // Structure Declaration //
 	int a,b,c;
 	float avg;
 	char name[20];
-}sc;
+}sc;//sc--> structure variable 
 void main()
 {
 	printf("enter your name \n");

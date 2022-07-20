@@ -2,7 +2,7 @@
 #include <conio.h>
 void main()
 {
-int a,b,c=0,*d=0;
+int a,b,c=0,*d=0; // *d is pointer variable 
 printf("Enter the  value of A \n");
 scanf("%d",&a);
 printf("Enter the  value of B \n");
@@ -23,7 +23,7 @@ printf("The address of C is   %u \n",&c);
 
 
 printf("the value of D  %d\n",*d);
-printf("The address inside D is   %d \n",d);
+printf("The address inside D is   %u \n",d);
 
 d=*d+15;
 printf("the value of D  %d\n",d);
