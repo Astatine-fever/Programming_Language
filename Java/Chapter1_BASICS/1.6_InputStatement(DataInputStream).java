@@ -2,7 +2,9 @@ package Chapter1_BASICS;
 import java.io.*;
 class import2 // main class 
 {
-public static void main(String [] args) throws IOException // when using DataInputStream IOException must be thrown in the method
+public static void main(String [] args) throws IOException 
+
+
 {
 int Sno; // Integer Data type 
 String Name; // String Data type 
